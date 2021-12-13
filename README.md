@@ -15,7 +15,7 @@ a [webpack](http://webpack.github.io/) loader for [px2rem](https://github.com/so
 
 ## Install
 
-`npm install px2rem-loader`
+`npm install with-exclude-px2rem-loader -D`
 
 ## webpack config
 
@@ -35,7 +35,7 @@ module.exports = {
         options: {
           remUnit: 75,
           remPrecision: 8,
-           exclude:/antd\.css/
+          exclude:/antd\.css/
         }
       }]
     }]
